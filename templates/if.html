@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demonstration of If condition</title>
+</head>
+<body>
+
+
+<!--
+    <h1>Demonstration of if condition</h1>
+    {% if data %}
+        <h1>control is inside the if condition</h1>
+
+    {{data}}
+
+    {% endif %}
+-->
+<!--
+<h1>Demonstration of if-else condition</h1>
+
+    {% if data %}
+
+        <h1>control is inside the if condition</h1>
+        {{data}}
+
+    {% else %}
+        <h1>control is inside else condition</h1>
+        <h1>data variale is empty</h1>
+
+    {% endif %}
+
+-->
+
+
+<h1>Demonstration of if-elif-else condition</h1>
+
+    {% if data %}
+
+        <h1>control is inside the if condition</h1>
+          {% for i in data %}
+
+               <h1> {{i}}</h1>
+
+          {% endfor %}
+
+    {% elif data1 %}
+        <h1>control is inside the el-if condition</h1>
+        {% for i in data1 %}
+
+        <h1> {{i}}</h1>
+
+   {% endfor %}
+
+
+    {% else %}
+        <h1>control is inside the else condition</h1>
+        <h1>neither of variables having data</h1>
+
+    {% endif %}
+
+
+
+
+
+
+<b>hai</b>
+<i>hello</i>
+
+<h1>python</h1>
+<b>django</b>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+   
+    
+</body>
+</html>
